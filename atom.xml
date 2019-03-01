@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Leon的技术小角落</title>
+  
+  <subtitle>坐在角落里边喝茶边写着博客</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-03-01T02:23:32.972Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>LeonChen</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python+Flask 前端同学开发后端接入层应用</title>
+    <link href="http://yoursite.com/2019/02/28/python_flask01/"/>
+    <id>http://yoursite.com/2019/02/28/python_flask01/</id>
+    <published>2019-02-28T11:45:58.586Z</published>
+    <updated>2019-03-01T02:23:32.972Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;最近在工作中做一个小型的查询系统，由于比较简单，前后端全是我一个人做。在这里从前端同学的视角讲解并记录前后端同时开发的过程，希望能为广大对前后端都有兴趣的同学提供思路~&lt;/p&gt;
+&lt;h2 id=&quot;一-相关技术&quot;&gt;&lt;a href=&quot;#一-相关技术&quot; class=&quot;headerlink&quot; title=&quot;一.相关技术&quot;&gt;&lt;/a&gt;一.相关技术&lt;/h2&gt;&lt;h3 id=&quot;1-前端&quot;&gt;&lt;a href=&quot;#1-前端&quot; class=&quot;headerlink&quot; title=&quot;1.前端&quot;&gt;&lt;/a&gt;1.前端&lt;/h3&gt;&lt;p&gt;前端主要使用了&lt;strong&gt;Vue+ElementUI+axios（http数据请求）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;IDE我推荐VSCode (ง •_•)ง&lt;/p&gt;
+&lt;p&gt;VSCode：&lt;a href=&quot;https://code.visualstudio.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;VSCode下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;2-后端&quot;&gt;&lt;a href=&quot;#2-后端&quot; class=&quot;headerlink&quot; title=&quot;2.后端&quot;&gt;&lt;/a&gt;2.后端&lt;/h3&gt;&lt;p&gt;后端接入层使用&lt;strong&gt;Python（3.7版本）+ Flask（Python的一种Web应用框架）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在这里IDE我用的PyCharm &lt;/p&gt;
+&lt;p&gt;PyCharm： &lt;a href=&quot;https://www.jetbrains.com/pycharm/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;PyCharm下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;使用&lt;strong&gt;gunicorn&lt;/strong&gt;作为Flask的Web Server&lt;/p&gt;
+&lt;p&gt;使用&lt;strong&gt;supervisor&lt;/strong&gt;进行进程管理（可以快速的用命令行的形式对我们的Flask应用启动，关闭，重启，查看状态）&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Web前后端开发" scheme="http://yoursite.com/categories/Web%E5%89%8D%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+    
+      <category term="Flask" scheme="http://yoursite.com/tags/Flask/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/02/28/hello-world/"/>
+    <id>http://yoursite.com/2019/02/28/hello-world/</id>
+    <published>2019-02-28T06:11:40.683Z</published>
+    <updated>2019-02-28T13:14:52.107Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
